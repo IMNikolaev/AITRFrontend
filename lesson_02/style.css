@@ -1,0 +1,19 @@
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: red;
+}
+.sectionFirst {
+    font-style: italic;
+}
+.sectionSecond{
+    text-decoration: underline;
+}
+.bigText {
+    font-size: 40px;
+}
+.smallText {
+    font-size: large;
+}
