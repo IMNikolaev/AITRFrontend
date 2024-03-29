@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.headline {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px 0; /* Устанавливаем отступ сверху и снизу */
+}
+
+.subheader {
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.center-align {
+  text-align: center;
+}
+
+hr {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.intro{
+  margin: 0 auto 20px; /* Устанавливаем отступ снизу */
+  width: 80%;
+}
+
+.main-text {
+  margin: 20px auto 20px;
+  width: 80%;
+}
+
+.idea {
+  font-style: italic;
+  font-weight: bold;
+  margin: 20px auto; /* Устанавливаем отступ сверху и снизу и центрируем элемент */
+  width: 80%;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-element {
+  font-size: 14px;
+}
+
+img {
+  display: block;
+  margin: 0 auto 20px; /* Центрируем изображение и устанавливаем отступ снизу */
+  max-width: 20%;
+  height: auto;
+}
+
+.author {
+  text-align: center; /* Выравниваем по центру */
+  margin: 0 auto 20px; /* Устанавливаем отступ снизу */
+  width: 80%; /* Устанавливаем ширину */
+}
