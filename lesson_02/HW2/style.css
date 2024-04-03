@@ -37,6 +37,12 @@ header {
 .center-align {
   text-align: center;
 }
+.grey-text {
+  transition: color 2s ease-in-out;
+}
+.grey-text:hover{
+  color: #6b1d1d;
+}
 
 hr {
   width: 80%;
@@ -73,14 +79,26 @@ footer {
 }
 
 img {
+  border: 10px #333 solid;
+  border-radius: 20%;
   display: block;
-  margin: 0 auto 20px;
+  margin: 20px auto 20px;
   max-width: 20%;
   height: auto;
+
 }
 
 .author {
   text-align: center;
   margin: 0 auto 20px;
   width: 80%;
+}
+.site-name{
+  text-decoration: underline;
+}
+.years {
+  font-weight: bold;
+}
+.procent {
+  font-style: italic;
 }

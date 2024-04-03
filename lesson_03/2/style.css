@@ -1,0 +1,28 @@
+* {
+    font: -apple-system-body;
+    font-size: 16px;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.button.green {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.button.light-green {
+    background-color: #8BC34A;
+    color: white;
+}
+
+/* При наведении */
+.button:hover {
+    background-color: #45a049;
+}
