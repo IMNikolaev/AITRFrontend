@@ -22,7 +22,6 @@
     color: white;
 }
 
-/* При наведении */
 .button:hover {
     background-color: #45a049;
 }
