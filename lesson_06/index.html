@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Cinema Park</title>
+</head>
+<body id="block1">
+<header>
+    <div class="subheader">
+        <div class="subheaderelement1"><img src="imgs/logo.svg" alt="logo"></div>
+        <div class="subheaderelement2"></div>
+        <div class="subheaderelement2"><input placeholder="Поиск"></div>
+    </div>
+</header>
+<main>
+    <div class="container">
+        <div class="menuccolum"></div>
+        <div class="menu">
+            <button onclick="scrollToBlock(1)">Главная</button>
+            <button onclick="scrollToBlock(2)">Новинки</button>
+            <button onclick="scrollToBlock(3)">Новости</button>
+        </div>
+        <div class="blocks">
+            <div class="block1">
+                <div class="subblock">
+                    <img src="imgs/batman.jpeg">
+                    <a href="https://www.youtube.com/watch?v=d80JUz7CsnI">Смотреть Трейлер</a>
+                </div>
+            </div>
+            <div class="block" id="block2">
+                <h2>Новинки</h2>
+                <div class="content">
+                    <div class="gridItem">
+                        <div class="movie-rating">7.8</div>
+                        <img src="imgs/movie1.webp">
+                        <div class="ticket-label">Tickets</div>
+                    </div>
+                    <div class="gridItem">
+                        <div class="movie-rating">9.8</div>
+                        <img src="imgs/movie1.webp">
+                        <div class="ticket-label">Tickets</div>
+                    </div>
+                    <div class="gridItem">
+                        <div class="movie-rating">12.8</div>
+                        <img src="imgs/movie1.webp">
+                        <div class="ticket-label">Tickets</div>
+                    </div>
+                    <div class="gridItem">
+                        <div class="movie-rating">9.8</div>
+                        <img src="imgs/movie1.webp">
+                        <div class="ticket-label">Tickets</div>
+                    </div>
+                    <div class="gridItem">
+                        <div class="movie-rating">9.8</div>
+                        <img src="imgs/movie1.webp">
+                        <div class="ticket-label">Tickets</div>
+                    </div>
+                    <div class="gridItem">
+                        <div class="movie-rating">9.8</div>
+                        <img src="imgs/movie1.webp">
+                        <div class="ticket-label">Tickets</div>
+                    </div>
+                </div>
+            </div>
+            <div class="block" id="block3">
+                <h3>Новости всякие</h3>
+                <p>Рыбий текст често очень лень придумывать, а Лорем не работает почему то)))</p>
+            </div>
+        </div>
+    </div>
+    </div>
+</main>
+<footer>
+    Футер
+</footer>
+
+<script>
+    function scrollToBlock(blockNumber) {
+        const block = document.getElementById(`block${blockNumber}`);
+        block.scrollIntoView({ behavior: 'smooth' });
+    }
+</script>
+</body>
+</html>
