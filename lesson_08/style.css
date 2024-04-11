@@ -1,0 +1,105 @@
+body, main {
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    height: 120px;
+    margin: 10px;
+    padding: 0;
+}
+.logo{
+    height: 33px;
+}
+.subheader2{
+    display: flex;
+    justify-content: space-between;
+}
+.textlogo{
+    display: flex;
+    align-items: start;
+}
+.cite{
+    display: grid;
+}
+.institution{
+    color: black;
+    text-decoration: none;
+    font-weight: normal;
+}
+.title{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header-menu{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+.epst{
+    margin: 0;
+
+.epst>p{
+    margin: 0;
+    padding: 0;
+}
+
+}
+.epst>img{
+    width: 32px;
+}
+.main-page{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-image: url('media/images/image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main-page>h3{
+    position: absolute;
+    top: 220px;
+    left: 50px;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+.blocks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.containerGridMinMax {
+    width: 80%;
+    display: grid;
+    justify-content: space-between;
+    gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-rows: auto;
+}
+.gridItemAdaptiv>img{
+    width: 100%;
+}
+
+.containerGridMinMax2 {
+    background-color: #666A86;
+    width: 100%;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-auto-rows: 100px;
+}
+.footer {
+    background-color: #333333;
+    width: 100%;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-auto-rows: 100px;
+}
+.footer>img{
+    width: 100%;
+}
