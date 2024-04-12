@@ -17,3 +17,9 @@ console.log(is42);
 
 myNumber = parseInt("123smth");
 console.log(myNumber);
+
+myString[0] = 'h';
+console.log(myString);
+let newString = 'h' + myString.slice(1);
+myString = newString;
+console.log(myString);
