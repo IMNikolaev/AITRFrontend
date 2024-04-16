@@ -11,9 +11,7 @@ const sumNumbers = (numbers) => {
         }
         i++;
     }
-    word += word2;
-    word += sum;
-    word += "."
+    word += `${word2}${sum}.`;
     return word;
 }
 numbers = [1, 2, 3, 4, 5];
